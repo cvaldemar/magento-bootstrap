@@ -1,3 +1,6 @@
 [submodule "skin/frontend/default/bootstrap/lib/bootstrap"]
 	path = skin/frontend/default/bootstrap/lib/bootstrap
 	url = https://github.com/twitter/bootstrap.git
+[submodule "skin/frontend/default/bootstrap/lib/html5shiv"]
+	path = skin/frontend/default/bootstrap/lib/html5shiv
+	url = git://github.com/aFarkas/html5shiv.git
