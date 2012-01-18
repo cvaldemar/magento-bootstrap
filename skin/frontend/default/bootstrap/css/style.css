@@ -1,1 +1,4 @@
 /* Additional styles for the Magento Bootstrap theme */
+body {
+    padding-top: 60px;
+}
