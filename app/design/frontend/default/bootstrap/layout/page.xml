@@ -45,7 +45,8 @@ Default layout, loads most of the pages
 
                 <!--<action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>-->
 
-                <action method="addCss"><stylesheet>bootstrap.min.css</stylesheet></action>
+                <action method="addCss"><stylesheet>lib/bootstrap/bootstrap.min.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
                 
             </block>
 
