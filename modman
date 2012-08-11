@@ -1,0 +1,10 @@
+#Modman file for magento-bootstrap
+skin/frontend/default/bootstrap              skin/frontend/default/bootstrap
+app/design/frontend/default/bootstrap       app/design/frontend/default/bootstrap
+
+@shell git submodule init && echo "git submodule init"
+@shell git submodule update && echo "git submodule update"
+@shell git submodule sync && echo "git submodule sync"
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
